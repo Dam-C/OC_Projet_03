@@ -27,9 +27,6 @@ presets
     --outline: #FFFFFF
 }
 
-
-
-
 body {
     width: 1340px;
     margin-top: 0px;
@@ -107,14 +104,12 @@ nav a {
     border-top: 4px solid white;
 }
 
-
 nav a:hover {
     position: relative;
     border-top: 4px solid var(--prim);
     color: var(--prim);
     font-weight: 500;
 }
-
 
 /* 
 bouton de recherche 
@@ -221,7 +216,6 @@ partie résultats
     position: relative;
     top: -7px;
 }
-
 
 /* 
 Images des vignettes Résultats 
@@ -477,7 +471,6 @@ Media Queries Tablette
 ======================================================================================================================
 ======================================================================================================================
 */
-
 
 
 
