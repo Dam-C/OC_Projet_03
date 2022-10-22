@@ -2,9 +2,11 @@
 <html lang="fr">
     <head> 
         
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="styles.css" />
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
         <title> Booki</title>
+
+        <script src="https://kit.fontawesome.com/30699aa1e7.js" crossorigin="anonymous"></script>
 
     </head>
 
@@ -33,25 +35,28 @@
 
         <section>
            
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1> 
-                <p>En plein ventre-ville ou en pleine nature</p>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1> 
+            <p>En plein ventre-ville ou en pleine nature</p>
 
-                <div class="search_bar">
-                    <div class="loc"></div>
-                    <div class="search_area"><h2>Marseille, France</h2></div>
-                    <div class="search_btn"><h2>Rechercher</h2></div>
-                </div>
+            <div class="search_bar">
+                <div class="loc"><i class="fa-solid fa-location-dot fa-black"></i></div>
+                <label for="rechercher"></label>
+                <input type="search" class="search_area" placeholder="Marseille, France" required/>
+                <div class="search_btn"><h2>Rechercher</h2></div>
+            </div>
 
-                <div class="filtres">
-                    <div>Filtres</div>
-                    <div class="filtre">Économique</div>
-                    <div class="filtre">Familial</div>
-                    <div class="filtre">Romantique</div>
-                    <div class="filtre">Animaux autorisés</div>
-                </div>
+            <div class="filtres">
+                <div class="master_filtre">Filtres</div>
+                <a href="#" class="filtre"><i class="fa-solid fa-money-bill-wave"></i>Économique</a>
+                <a href="#" class="filtre"><i class="fa-solid fa-person fa-lg"></i>Familial</a>
+                <a href="#" class="filtre"><i class="fa-solid fa-heart fa-lg"></i>Romantique</a>
+                <a href="#" class="filtre"><i class="fa-solid fa-dog fa-lg"></i>Animaux autorisés</a>
+            </div>
 
+            <div class="info">
+                <div class="cercle"><i class="fa-solid fa-info fa-xs "></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            
+            </div>
         </section>
 
 <!-- Résultats de recherche
@@ -64,58 +69,58 @@
                 <h1>Hébergements à Marseille</h1>
                     <div class="heb_vigns">
                         
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Auberge La Canebière</h3>
                                 <p class="smaller">Nuit à partir de 25<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB1"></div>
+                            <div class="HEB1"></div></a>
                         </article>
 
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Hôtel du Port</h3>
                                 <p class="smaller">Nuit à partir de 52<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB2"></div>
+                            <div class="HEB2"></div></a>
                         </article>
 
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Hôtel Les mouettes</h3>
                                 <p class="smaller">Nuit à partir de 76<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB3"></div>
+                            <div class="HEB3"></div></a>
                         </article>
 
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Hôtel de la mer</h3>
                                 <p class="smaller">Nuit à partir de 46<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB4"></div>
+                            <div class="HEB4"></div></a>
                         </article>
 
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Auberge Le Panier</h3>
                                 <p class="smaller">Nuit à partir de 23<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB5"></div>
+                            <div class="HEB5"></div></a>
                         </article>
 
-                        <article class="heb_vign">
+                        <article class="heb_vign"><a href="#">
                             <div class="heb_encart">
                                 <h3>Hôtel chez Amina</h3>
                                 <p class="smaller">Nuit à partir de 96<span class="€">€</span></p>
-                                <p class="stars">****</p>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
                             </div>
-                            <div class="HEB6"></div>
+                            <div class="HEB6"></div></a>
                         </article>
 
                     </div>
@@ -127,34 +132,46 @@
 -->
 
             <aside class="pop">
-                <h3>Les plus populaires</h3>
+                <div class="pop_head">
+                <h1>Les plus populaires</h1>
+                <i class="fa-solid fa-chart-line"></i>
+                </div>
                     <div class="pop_vigns">
                         
-                        <article class="pop_vign">
-                            <div class="pop_encart">
-                                <h3>Hôtel Le soleil du matin</h3>
-                                <p class="smaller">Nuit à partir de 128<span class="€">€</span></p>
-                                <p class="stars">****</p>
-                            </div>
+                        <article class="pop_vign"><a href="#">
                             <div class="POP1"></div>
+                            <div class="pop_encart">
+                                <div>
+                                    <h3>Hôtel Le soleil du matin</h3>
+                                    <p class="smaller">Nuit à partir de 128<span class="€">€</span></p>
+                                </div>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
+                            </div>
+                            </a>
                         </article>
 
-                        <article class="pop_vign">
-                            <div class="pop_encart">
-                                <h3>Chambres d'hôtes Au coeur de l'eau</h3>
-                                <p class="smaller">Nuit à partir de 71<span class="€">€</span></p>
-                                <p class="stars">****</p>
-                            </div>
+                        <article class="pop_vign"><a href="#">
                             <div class="POP2"></div>
+                            <div class="pop_encart">
+                                <div>
+                                    <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+                                    <p class="smaller">Nuit à partir de 71<span class="€">€</span></p>
+                                </div>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
+                            </div>
+                            </a>
                         </article>
 
-                        <article class="pop_vign">
-                            <div class="pop_encart">
-                                <h3>Hôtel Bleu et Blanc</h3>
-                                <p class="smaller">Nuit à partir de 68<span class="€">€</span></p>
-                                <p class="stars">****</p>
-                            </div>
+                        <article class="pop_vign"><a href="#">
                             <div class="POP3"></div>
+                            <div class="pop_encart">
+                                <div>
+                                    <h3>Hôtel Bleu et Blanc</h3>
+                                    <p class="smaller">Nuit à partir de 68<span class="€">€</span></p>
+                                </div>
+                                <p class="stars"><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs fa-grey"></i></p>
+                            </div>
+                            </a>
                         </article>
 
                     </div>
@@ -169,24 +186,24 @@
             <h1>Activités à Marseille </h1>
                 <div class="act_vigns">
                     
-                    <article class="act_vign">
+                    <article class="act_vign"><a href="#">
                         <h3>Vieux-Port</h3>
-                        <div class="ACT1"></div>
+                        <div class="ACT1"></div></a>
                     </article>
 
-                    <article class="act_vign">
+                    <article class="act_vign"><a href="#">
                         <h3>Fort de Pomègues</h3>
-                        <div class="ACT2"></div>
+                        <div class="ACT2"></div></a>
                     </article>
                     
-                    <article class="act_vign">
+                    <article class="act_vign"><a href="#">
                         <h3>Parc National des Calanques</h3>
-                        <div class="ACT3"></div>
+                        <div class="ACT3"></div></a>
                     </article>
                     
-                    <article class="act_vign">
+                    <article class="act_vign"><a href="#">
                         <h3>Notre-Dame-de-la-Garde</h3>
-                        <div class="ACT4"></div>
+                        <div class="ACT4"></div></a>
                     </article>
                     
                 </div>
@@ -201,21 +218,21 @@
 
             <div>
             <h2>À propos</h2>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales</li>
-            <li>Données et confidentialité</li>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
             </div>
 
             <div>
-            <h2>Nos hébergements</h2>
-            <li>Charte qualité</li>
-            <li>Proposer votre hôtel</li>
+            <h2><a href="#">Nos hébergements</a></h2>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Proposer votre hôtel</a></li>
             </div>
 
             <div>
-            <h2>Assistance</h2>
-            <li>Centre d'aide</li>
-            <li>Nous contacter</li>
+            <h2><a href="#">Assistance</a></h2>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
             </div>
 
         </footer> 

@@ -23,8 +23,9 @@ presets
 :root {
     --prim: #0065FC;
     --prim-soft: #DEEBFF;
+    --dark-back: #D9D9D9;
     --back: #F2F2F2;
-    --outline: #FFFFFF
+    --outline: #FFFFFF;
 }
 
 body {
@@ -70,6 +71,18 @@ p {
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.fa-solid {
+    color: var(--prim);
+}
+
+.fa-grey {
+    color: var(--dark-back);
+}
+
+.fa-black {
     color: black;
 }
 
@@ -127,17 +140,28 @@ bouton de recherche
     height: 50px;
     border-radius: 15px 0px 0px 15px;
     background-color: var(--back);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search_area {
-    width: 223px;
-    height: 48px;
-    border-top: 1px solid var(--back);
-    border-bottom: 1px solid var(--back);
+    width: 224px;
+    height: 50px;
+    border: 1px solid var(--back);
     padding-left: 15px;
 }
 
+input::placeholder {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
 .search_btn{
+    position: relative;
+    left: -10px;
     width: 117px;
     height: 50px;
     border-radius: 0px 15px 15px 0px;
@@ -153,7 +177,48 @@ bouton de recherche
     justify-content: space-between;
     width: 950px;
     margin-bottom: 53px;
+    margin-left: 7px;
 }
+
+.master_filtre {
+    padding-top: 15px; 
+}
+
+.filtre {
+    display: block;
+    padding: 15px 20px 15px 15px;
+    padding-right: 20px;
+    border: 3px solid var(--dark-back);
+    border-radius: 30px;
+}
+
+.filtre:hover {
+    background-color: var(--prim-soft);
+}
+
+.filtre i {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 450px;
+}
+.cercle {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--back);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 /* 
 partie résultats 
@@ -164,7 +229,7 @@ partie résultats
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 60px 0 60px 0;
+    margin: 60px 0px 60px 0px;
 }
 
 .heb {
@@ -194,6 +259,7 @@ partie résultats
     background-color: var(--outline);
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
     overflow: hidden;
+
 }
 
 .heb_encart {
@@ -214,7 +280,11 @@ partie résultats
 
 .heb_encart h3 + p {
     position: relative;
-    top: -7px;
+    top: -10px;
+}
+
+.heb_vign .stars {
+    margin-top: -2px;
 }
 
 /* 
@@ -226,7 +296,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("Images/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,11 +357,19 @@ partie populaires
 ===========================================================
 */
 .pop {
-    width: 343px;
-    height: 551px;
+    width: 343px; 
+    height: 592px;
     border-radius: 20px;
     background-color: var(--back);
-    padding: 41px 40px 34px 37px;
+    padding: 0 40px 34px 37px;
+}
+
+.pop_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: baseline;
+    margin-top: 15px;
 }
 
 .pop_vigns {
@@ -299,11 +377,12 @@ partie populaires
     flex-direction: column;
     justify-content: space-between;
     height: 498px;
+    margin-top: 7px;
 }
 
 .pop_vign {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
     width: 333px;
     height: 134px;
@@ -315,13 +394,14 @@ partie populaires
 }
 
 .pop_encart {
-    float: left;
-    position: relative;
-    z-index: 2;
-    height: 56px;
-    width: 169px;
-    padding: 0px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 107%;
+    margin-top: -5px;
+    padding: 0 20px 0 20px;
     background-color: var(--outline);
+    margin-left: 120px;
 }
 
 /* 
@@ -331,6 +411,7 @@ Images des vignettes Populaires
 
 .POP1 {
     z-index: 1;
+    float:left;
     height: 100%;
     width: 122px;
     background-image: url("Images/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
@@ -341,6 +422,7 @@ Images des vignettes Populaires
 
 .POP2 {
     z-index: 1;
+    float:left;
     height: 100%;
     width: 122px;
     background-image: url("Images/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
@@ -351,6 +433,7 @@ Images des vignettes Populaires
 
 .POP3 {
     z-index: 1;
+    float:left;
     height: 100%;
     width: 122px;
     background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
