@@ -180,7 +180,9 @@ input::placeholder {
 }
 
 .fa-magnifying-glass {
+    position: absolute;
     display: none;
+    visibility: hidden;
 }
 
 .filtres {
@@ -308,7 +310,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -318,7 +320,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,7 +330,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -338,7 +340,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -348,7 +350,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -358,7 +360,7 @@ Images des vignettes Résultats
     z-index: 1;
     height: 100%;
     height: 120px;
-    background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -426,7 +428,7 @@ Images des vignettes Populaires
     float:left;
     height: 100%;
     width: 122px;
-    background-image: url("Images/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -437,7 +439,7 @@ Images des vignettes Populaires
     float:left;
     height: 100%;
     width: 122px;
-    background-image: url("Images/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -448,7 +450,7 @@ Images des vignettes Populaires
     float:left;
     height: 100%;
     width: 122px;
-    background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-image: url("Images/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -507,7 +509,7 @@ Images des vignettes Activités
 .ACT1 {
     z-index: 2;
     height: 100%;
-    background-image: url("Images/Images Booki/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-image: url("Images/Images_Booki/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -516,7 +518,7 @@ Images des vignettes Activités
 .ACT2 {
     z-index: 2;
     height: 100%;
-    background-image: url("Images/Images Booki/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-image: url("Images/Images_Booki/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -525,7 +527,7 @@ Images des vignettes Activités
 .ACT3 {
     z-index: 2;
     height: 100%;
-    background-image: url("Images/Images Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-image: url("Images/Images_Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -534,7 +536,7 @@ Images des vignettes Activités
 .ACT4 {
     z-index: 2;
     height: 100%;
-    background-image: url("Images/Images Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-image: url("Images/Images_Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -580,8 +582,6 @@ Media Queries Tablette
         margin-top: 0px;
         margin-left: auto;
         margin-right: auto;
-        font-family: 'Raleway';
-        list-style-type: none;
     }
 
     /* 
@@ -732,7 +732,7 @@ Media Queries Tablette
         flex-direction: row;
         justify-content: space-between ;
         align-items: baseline;
-        margin-top: 12px;
+        margin: 12px 0 0 0;
     }
 
     .pop_vigns {
@@ -772,36 +772,15 @@ Media Queries Tablette
     */
 
     .POP1 {
-        z-index: 1;
-        float:left;
-        height: 100%;
         width: 106px;
-        background-image: url("Images/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .POP2 {
-        z-index: 1;
-        float:left;
-        height: 100%;
         width: 106px;
-        background-image: url("Images/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
     .POP3 {
-        z-index: 1;
-        float:left;
-        height: 100%;
         width: 106px;
-        background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 
 
@@ -852,7 +831,7 @@ Media Queries Tablette
     }
 
     footer div {
-        flex: 1;
+        flex: .9;
     }
 
     footer div li {
@@ -874,7 +853,6 @@ Media Queries Mobile
 
     body {
         width: 376px;
-        border: 1px solid black;
     }
 
     /* 
@@ -889,11 +867,11 @@ Media Queries Mobile
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 31px;
     }
 
     .log {
         margin-top: 21px ;
-        margin-bottom: ;
     }
 
     .log img {
@@ -920,16 +898,20 @@ Media Queries Mobile
     }
 
     .intro {
-        margin: 0px 20px 0px 20px;
-        white-space: pre;
+        margin: 0px 20px 36px 20px;
+        height: 84px;
+        width: 336px;
+        max-inline-size: 336px;
+        
     }
 
     .intro h1 {
-        margin-top: 0px;
+        margin-top: 0;
+        height: 52px;
     }
 
     .intro p {
-        margin-top: -30px;
+        margin-top: 5px;
     }
     
     /* 
@@ -953,7 +935,7 @@ Media Queries Mobile
     }
     
     .search_area {
-        width: 224px;
+        width: 240px;
         height: 50px;
         border: 1px solid var(--back);
         padding-left: 15px;
@@ -966,64 +948,80 @@ Media Queries Mobile
         color: black;
     }
     
-    .search_btn{
-        position: relative;
-        left: -10px;
-        width: 117px;
-        height: 50px;
+    .search_btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
         border-radius: 0px 15px 15px 0px;
-        background-color: var(--prim);
-        color: white;
-        padding-left: 15px;
-        cursor: pointer;
+        padding-left: 0;
+    }
+
+    .fa-magnifying-glass {
+        position: relative;
+        display: block;
+        visibility: visible;
     }
     
     .filtres {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 950px;
-        margin: 0 0 53px 62px;
+        flex-wrap: wrap;
+        width: auto;
+        height: 153px;
+        margin: 0 20px 43px 20px;
     }
     
     .master_filtre {
-        padding-top: 15px; 
+        flex-basis: 100%;
+        padding-top: 0; 
     }
     
     .filtre {
-        display: block;
-        padding: 15px 20px 15px 15px;
-        padding-right: 20px;
-        border: 3px solid var(--dark-back);
-        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 11px;
+        font-weight: 700;
+        width: 160px;
+        height: 46px;
+        padding: 0 0 0 0;
+        border: 2px solid var(--dark-back);
+        border-radius: 25px;
     }
     
+
+
     .filtre:hover {
         background-color: var(--prim-soft);
     }
     
     .filtre i {
-        margin-left: 10px;
-        margin-right: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
     }
     
     .info {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 450px;
-        margin-left: 55px;
+        width: 335px;
+        height: 57px;
+        margin: 0 20px 20px 20px;
     }
     .cercle {
         position: relative;
-        width: 24px;
-        height: 24px;
+        width: 27px;
+        height: 20px;
         border: 2px solid var(--back);
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+        margin-right: 10px;
+    }
+
+    .info p {
+        margin: 0;
+        line-height: normal;
     }
     
     
@@ -1033,40 +1031,38 @@ Media Queries Mobile
     */
     
     .resultats {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin: 60px 50px 60px 50px;
+        flex-direction: column-reverse;
+        margin-bottom: 1050x;
+        margin: 0px 0px 0px 0px;
     }
     
     .heb {
-        width: 800px;
-        height: 555px;
-        border-radius: 20px;
-        background-color: var(--back);
-        padding: 25px 40px 46px 40px;
+        width: 376px;
+        height: auto;
+        border-radius: 0;
+        background-color: var(--outline);
+        padding: 0 0 0 0;
+    }
+
+    .heb h1 {
+        margin-left: 20px;
     }
     
     .heb_vigns {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-between;
-        align-content: space-between;
-        width: 800px;
-        height: 428px;
-        margin: 23px 0 40px 0;
+        align-content: center;
+        width: 336px;
+        height: auto;
+        margin: 0 20px 40px 20px;
     }
     
     .heb_vign {
-        width: 236px;
-        height: 190px;
+        width: 335px;
+        height: 199px;
         border-radius: 20px;
-        border: 5px solid var(--outline);
-        background-color: var(--outline);
-        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
-        overflow: hidden;
-    
+        margin-bottom: 12px; 
     }
     
     .heb_encart {
@@ -1075,7 +1071,7 @@ Media Queries Mobile
         z-index: 2;
         height: 80px;
         width: 246px;
-        margin-top: 114px;
+        margin-top: 120px;
         padding: 0 0 0 15px;
         background-color: var(--outline);
     }
@@ -1087,111 +1083,49 @@ Media Queries Mobile
     
     .heb_encart h3 + p {
         position: relative;
-        top: -10px;
+        top: -7px;
     }
     
     .heb_vign .stars {
-        margin-top: -2px;
+        margin-top: 0;
     }
     
-    /* 
-    Images des vignettes Résultats 
-    ===========================================================
-    */
-    
-    .HEB1 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .hide {
+        display: none;
     }
-    
-    .HEB2 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .HEB3 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .HEB4 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .HEB5 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .HEB6 {
-        z-index: 1;
-        height: 100%;
-        height: 120px;
-        background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
+
     /* 
     partie populaires 
     ===========================================================
     */
     .pop {
-        width: 343px; 
-        height: 592px;
-        border-radius: 20px;
+        width: 376px;
+        height: 580px; 
         background-color: var(--back);
-        padding: 0 40px 34px 37px;
+        padding: 0 0 0 0;
+        border-radius: 0;
+        margin-bottom: 8px;
     }
     
     .pop_head {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between ;
-        align-items: baseline;
-        margin-top: 15px;
+        margin: 4px 20px 4px 20px;
     }
     
     .pop_vigns {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 498px;
-        margin-top: 7px;
+        height: 454px;
+        margin: 0 20px 0 20px;
+        margin-top: 0;
+
     }
     
     .pop_vign {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 333px;
+        width: 324px;
         height: 134px;
         border-radius: 20px;
         border: 5px solid var(--outline);
@@ -1206,50 +1140,37 @@ Media Queries Mobile
         justify-content: space-between;
         height: 107%;
         margin-top: -5px;
-        padding: 0 20px 0 20px;
+        padding: 0 20px 0 10px;
         background-color: var(--outline);
-        margin-left: 120px;
+        margin-left: 130px;
+    }
+    
+    .pop_encart h3 {
+        font-size: 16px;
+    }
+
+    .pop_encart .smaller {
+        font-size: 14px;        
     }
     
     /* 
     Images des vignettes Populaires 
     ===========================================================
     */
-    
+
     .POP1 {
-        z-index: 1;
-        float:left;
-        height: 100%;
-        width: 122px;
-        background-image: url("Images/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 127px;
     }
-    
+
     .POP2 {
-        z-index: 1;
-        float:left;
-        height: 100%;
-        width: 122px;
-        background-image: url("Images/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 127px;
     }
-    
+
     .POP3 {
-        z-index: 1;
-        float:left;
-        height: 100%;
-        width: 122px;
-        background-image: url("Images/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        width: 127px;
     }
-    
-    
+
+
     /* 
     partie avtivités 
     ===========================================================
@@ -1260,16 +1181,15 @@ Media Queries Mobile
         margin: 0 20px 80px 20px;
     }
 
-    .activites + h3 {
-        position: relative;
-        top: -23px;
+    .activites h1 {
+        height: auto;
+        width: 130px;
     }
     
     .act_vigns {
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
         height: 832px;
+        margin-top: -13px;
     }
     
     .act_vign {
@@ -1293,49 +1213,7 @@ Media Queries Mobile
     
     .act_encart h3 {
         margin-left:20px ;
-    }
-    
-    /* 
-    Images des vignettes Activités 
-    ===========================================================
-    */
-    
-    .ACT1 {
-        z-index: 2;
-        height: 100%;
-        background-image: url("Images/Images Booki/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .ACT2 {
-        z-index: 2;
-        height: 100%;
-        background-image: url("Images/Images Booki/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .ACT3 {
-        z-index: 2;
-        height: 100%;
-        background-image: url("Images/Images Booki/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .ACT4 {
-        z-index: 2;
-        height: 100%;
-        background-image: url("Images/Images Booki/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
+    } 
     
     /* 
     partie footer 
@@ -1351,10 +1229,6 @@ Media Queries Mobile
     
     footer div {
         flex: 1;
-    }
-    
-    footer div li {
-        line-height: 35px;
     }
     
 }
