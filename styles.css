@@ -927,11 +927,11 @@ Media Queries Mobile
 
     .intro h1 {
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .intro p {
-        margin-bottom: 36px;
+        margin-bottom: 40px;
     
     }
     
@@ -942,7 +942,7 @@ Media Queries Mobile
     .search_bar {
         display: flex;
         flex-direction: row;
-        margin: 20px 0px 34px 2px;
+        margin: 20px 0px 30px 2px;
     }
     
     .loc {
@@ -956,10 +956,11 @@ Media Queries Mobile
     }
     
     .search_area {
-        width: 332px;
+        width: 235px;
         height: 50px;
         border: 1px solid var(--back);
         padding-left: 15px;
+
     }
     
     input::placeholder {
@@ -975,6 +976,8 @@ Media Queries Mobile
         align-items: center;
         width: 50px;
         border-radius: 0px 15px 15px 0px;
+        padding: 0 0 0 0;
+        left: -1px;
     }
 
     .fa-magnifying-glass {
@@ -987,6 +990,7 @@ Media Queries Mobile
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-content: space-between;
         flex-wrap: wrap;
         width: auto;
         height: 153px;
@@ -1011,6 +1015,13 @@ Media Queries Mobile
         border-radius: 25px;
     }
     
+    .filtre:nth-child(1) {
+        margin-bottom: 50px;
+    }
+
+    .filtre:nth-child(1) {
+
+    }  
 
 
     .filtre:hover {
@@ -1028,7 +1039,7 @@ Media Queries Mobile
     .info {
         width: 335px;
         height: 57px;
-        margin: 0 0 20px 0;
+        margin: 0 0 0 0;
     }
     .cercle {
         position: relative;
@@ -1057,6 +1068,8 @@ Media Queries Mobile
         flex-direction: column-reverse;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 0;
+        margin-top: 18px;
         width: auto;
     }
     
@@ -1078,7 +1091,7 @@ Media Queries Mobile
         align-content: center;
         width: auto;
         height: auto;
-        margin: 0 0 40px 0;
+        margin: 0 0 0 0;
     }
     
     .heb_vign {
