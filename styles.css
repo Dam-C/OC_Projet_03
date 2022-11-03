@@ -605,6 +605,8 @@ footer div {
 
 footer div li {
     line-height: 35px;
+    list-style-type: none;
+    margin-left: -40px;
 }
 
 
@@ -739,6 +741,7 @@ Media Queries Tablette
     .resultats {
         display: flex;
         flex-direction: column;
+        width: auto;
         justify-content: space-between;
         margin: 39px 0 70px 0;
     }
