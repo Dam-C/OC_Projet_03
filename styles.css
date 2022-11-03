@@ -597,7 +597,7 @@ Media Queries Tablette
 ======================================================================================================================
 */
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media all and (max-width: 992px) {
 
     body {
         padding-left: 72px;
@@ -800,7 +800,7 @@ Media Queries Tablette
 
 
     /* 
-    partie activités 
+    partie avtivités 
     ===========================================================
     */
 
@@ -821,16 +821,13 @@ Media Queries Tablette
 
     .act_encart {
         width: 182px;
-        height: 56px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        vertical-align: middle;
     }
     
     .act_encart h3 {
-     
-        margin:0 0 0 19px ;
+        margin-left:19px;
         white-space: pre;
     }
 
@@ -869,7 +866,7 @@ Media Queries Mobile
 ======================================================================================================================
 */
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
 
     body {
         padding: 0 0 0 0;
