@@ -219,6 +219,23 @@ input::placeholder {
     background-color: var(--prim-soft);
 }
 
+.fa-money-bill-wave {
+    font-size: 1.2em;
+}
+
+.fa-person {
+    font-size: 1.2em;
+}
+
+.fa-heart{
+    font-size: 1.2em;
+}
+
+.fa-dog {
+    font-size: 1.2em;
+}
+
+
 .filtre i {
     margin-left: 10px;
     margin-right: 15px;
@@ -1015,21 +1032,28 @@ Media Queries Mobile
         border-radius: 25px;
     }
     
-    .filtre:nth-child(1) {
-        margin-bottom: 50px;
-    }
-
-    .filtre:nth-child(1) {
-
-    }  
-
-
     .filtre:hover {
         background-color: var(--prim-soft);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     }
     
+    .fa-money-bill-wave {
+        font-size: 1.6em;
+    }
+    
+    .fa-person {
+        font-size: 1.6em;
+    }
+    
+    .fa-heart{
+        font-size: 1.6em;
+    }
+    
+    .fa-dog {
+        font-size: 1.6em;
+    }
+
     .filtre i {
         margin-left: 15px;
         margin-right: 10px;
