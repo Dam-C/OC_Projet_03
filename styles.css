@@ -29,11 +29,12 @@ presets
 }
 
 body {
-    width: 1440px;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: 'Raleway';
     list-style-type: none;
 }
@@ -96,10 +97,13 @@ partie header
 */
 .top {
     display: flex;
+    width: 1340px;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
     margin:0 50px 0 55px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .log img {
@@ -129,8 +133,14 @@ nav a:hover {
     font-weight: 500;
 }
 
+.up {
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .intro {
-    margin-left: 55px;
+    margin-left: 5px;
 }
 
 /* 
@@ -140,7 +150,7 @@ bouton de recherche
 .search_bar {
     display: flex;
     flex-direction: row;
-    margin: 30px 0px 46px 55px;
+    margin: 30px 0px 46px 5px;
 }
 
 .loc {
@@ -190,7 +200,7 @@ input::placeholder {
     flex-direction: row;
     justify-content: space-between;
     width: 950px;
-    margin: 0 0 53px 62px;
+    margin: 0 0 53px 12px;
 }
 
 .master_filtre {
@@ -219,7 +229,7 @@ input::placeholder {
     flex-direction: row;
     justify-content: space-between;
     width: 450px;
-    margin-left: 55px;
+    margin-left: 5px;
 }
 .cercle {
     position: relative;
@@ -243,7 +253,11 @@ partie résultats
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 60px 50px 60px 50px;
+    width: 1340px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .heb {
@@ -464,7 +478,10 @@ partie avtivités
 
 .activites {
     height: 493px;
-    margin: 0 50px 60px 50px;
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .activites + h3 {
@@ -555,9 +572,14 @@ footer {
     padding: 30px 70px 0 70px;
     height: 225px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     background-color: var(--back);
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 footer div {
@@ -578,10 +600,8 @@ Media Queries Tablette
 @media screen and (min-width: 769px) and (max-width: 992px) {
 
     body {
-        width: 1024px;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 72px;
+        padding-right: 72px;
     }
 
     /* 
@@ -590,10 +610,10 @@ Media Queries Tablette
     */
     .top {
         display: flex;
+        width: 880px;
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
-        margin-left: 72px;
     }
 
     .log img {
@@ -623,8 +643,8 @@ Media Queries Tablette
         font-weight: 500;
     }
 
-    .intro {
-        margin-left: 72px;
+    .up {
+        width: 880px;
     }
 
     /* 
@@ -634,7 +654,7 @@ Media Queries Tablette
     .search_bar {
         display: flex;
         flex-direction: row;
-        margin: 30px 0px 46px 74px;
+        margin: 30px 0px 46px 2px;
 
     }
 
@@ -680,7 +700,6 @@ Media Queries Tablette
         justify-content: space-between;
         width: 846px;
         margin-bottom: 53px;
-        margin-left: 72px;
     }
 
     .master_filtre {
@@ -695,10 +714,6 @@ Media Queries Tablette
         border-radius: 30px;
     }
 
-    .info {
-        margin-left: 72px;
-    }
-
     /* 
     partie résultats 
     ===========================================================
@@ -708,7 +723,7 @@ Media Queries Tablette
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 39px 72px 70px 72px;
+        margin: 39px 0 70px 0;
     }
 
     .heb {
@@ -791,7 +806,8 @@ Media Queries Tablette
 
     .activites {
         height: 331px;
-        margin: 0 73px 60px 73px;
+        width: 880px;
+        margin-bottom:60px;
     }
 
     .act_vigns {
@@ -827,14 +843,15 @@ Media Queries Tablette
         width: 740px;
         height: 180px;
         padding: 45px 70px 0 70px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         background-color: var(--back);
     }
 
+    .footer_text {
+        width: auto;
+    }
+
     footer div {
-        flex: .9;
+        flex: 1;
     }
 
     footer div li {
@@ -855,7 +872,7 @@ Media Queries Mobile
 @media screen and (max-width: 768px) {
 
     body {
-        width: 376px;
+        padding: 0 0 0 0;
     }
 
     /* 
@@ -900,21 +917,25 @@ Media Queries Mobile
         border-bottom: 3px solid var(--prim);
     }
 
-    .intro {
-        margin: 0px 20px 36px 20px;
-        height: 84px;
+    .up {
         width: 336px;
+    }
+
+    .intro {
+        margin-top:36px;
+        width: auto;
         max-inline-size: 336px;
-        
+        margin-left: 0;
     }
 
     .intro h1 {
-        margin-top: 0;
-        height: 52px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .intro p {
-        margin-top: 5px;
+        margin-bottom: 36px;
+    
     }
     
     /* 
@@ -924,7 +945,7 @@ Media Queries Mobile
     .search_bar {
         display: flex;
         flex-direction: row;
-        margin: 0px 0px 34px 22px;
+        margin: 20px 0px 34px 2px;
     }
     
     .loc {
@@ -938,7 +959,7 @@ Media Queries Mobile
     }
     
     .search_area {
-        width: 240px;
+        width: 332px;
         height: 50px;
         border: 1px solid var(--back);
         padding-left: 15px;
@@ -957,7 +978,6 @@ Media Queries Mobile
         align-items: center;
         width: 50px;
         border-radius: 0px 15px 15px 0px;
-        padding-left: 0;
     }
 
     .fa-magnifying-glass {
@@ -973,7 +993,7 @@ Media Queries Mobile
         flex-wrap: wrap;
         width: auto;
         height: 153px;
-        margin: 0 20px 43px 20px;
+        margin: 0 0 43px 0px;
     }
     
     .master_filtre {
@@ -998,17 +1018,20 @@ Media Queries Mobile
 
     .filtre:hover {
         background-color: var(--prim-soft);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     }
     
     .filtre i {
         margin-left: 15px;
         margin-right: 10px;
+
     }
     
     .info {
         width: 335px;
         height: 57px;
-        margin: 0 20px 20px 20px;
+        margin: 0 0 20px 0;
     }
     .cercle {
         position: relative;
@@ -1035,34 +1058,34 @@ Media Queries Mobile
     
     .resultats {
         flex-direction: column-reverse;
-        margin-bottom: 1050x;
-        margin: 0px 0px 0px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
     }
     
     .heb {
-        width: 376px;
+        width: auto;
         height: auto;
         border-radius: 0;
         background-color: var(--outline);
         padding: 0 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .heb h1 {
-        margin-left: 20px;
-    }
     
     .heb_vigns {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-content: center;
-        width: 336px;
+        width: auto;
         height: auto;
-        margin: 0 20px 40px 20px;
+        margin: 0 0 40px 0;
     }
     
     .heb_vign {
-        width: 335px;
+        width: 326px;
         height: 199px;
         border-radius: 20px;
         margin-bottom: 12px; 
@@ -1102,7 +1125,7 @@ Media Queries Mobile
     ===========================================================
     */
     .pop {
-        width: 376px;
+        width: auto;
         height: 580px; 
         background-color: var(--back);
         padding: 0 0 0 0;
@@ -1111,16 +1134,21 @@ Media Queries Mobile
     }
     
     .pop_head {
-        margin: 4px 20px 4px 20px;
+        width: 336px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .pop_vigns {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 336px;
         height: 454px;
-        margin: 0 20px 0 20px;
         margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+
 
     }
     
@@ -1180,8 +1208,11 @@ Media Queries Mobile
     */
     
     .activites {
+        width: 336px;
         height: auto;
-        margin: 0 20px 80px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
     }
 
     .activites h1 {
@@ -1192,7 +1223,10 @@ Media Queries Mobile
     .act_vigns {
         flex-direction: column;
         height: 832px;
+        width: auto;
         margin-top: -13px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .act_vign {
@@ -1224,12 +1258,19 @@ Media Queries Mobile
     */
     
     footer {
-        width: 315px;
+        width: auto;
         padding: 45px 30px 0px 30px;
-        height: 501px;
+        height: 456px;
         flex-direction: column;
     }
     
+    .footer_text {
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 316px;
+    }
+
     footer div {
         flex: 1;
     }
