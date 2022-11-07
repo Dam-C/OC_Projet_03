@@ -1060,6 +1060,7 @@ Media Queries Mobile
     .filtre i {
         margin-left: 15px;
         margin-right: 10px;
+        margin-top: -20px;
 
     }
     
@@ -1078,6 +1079,7 @@ Media Queries Mobile
         justify-content: center;
         align-items: center;
         margin-right: 10px;
+        margin-top: -4px;
     }
 
     .info p {
