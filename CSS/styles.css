@@ -15,9 +15,8 @@ body {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1400px;
     margin-bottom: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
 }
@@ -80,13 +79,9 @@ partie header
 */
 .top {
     display: flex;
-    width: 1340px;
-    flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    margin:0 50px 0 55px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .log img {
@@ -96,10 +91,8 @@ partie header
 
 nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     text-align:center;
-    
 }
 
 nav a {
@@ -117,9 +110,7 @@ nav a:hover {
 }
 
 .up {
-    width: 1340px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .intro {
@@ -154,7 +145,7 @@ bouton de recherche
 }
 
 input::placeholder {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: black;
@@ -180,9 +171,8 @@ input::placeholder {
 
 .filtres {
     display: flex;
-    flex-direction: row;
+    width: 70%;
     justify-content: space-between;
-    width: 950px;
     margin: 0 0 53px 12px;
 }
 
@@ -251,169 +241,90 @@ partie résultats
 
 .resultats {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 1340px;
     margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 60px;
 }
 
 .heb {
-    width: 800px;
-    height: 555px;
+    width: 65%;
     border-radius: 20px;
     background-color: var(--back);
-    padding: 25px 40px 46px 40px;
+}
+
+.heb h1 {
+    margin: 42px 0 0 40px;
 }
 
 .heb_vigns {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    width: 800px;
-    height: 428px;
-    margin: 23px 0 40px 0;
+    margin: 23px 40px 40px 40px;
 }
 
-.heb_vign {
-    width: 236px;
-    height: 190px;
-    border-radius: 20px;
-    border: 5px solid var(--outline);
-    background-color: var(--outline);
-    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
-    overflow: hidden;
+    .heb_vign {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        border-radius: 20px;
+        border: 5px solid var(--outline);
+        background-color: var(--outline);
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
 
-}
+    .heb_vign img {
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
 
-.heb_encart {
-    float: left;
-    position: relative;
-    z-index: 2;
-    height: 80px;
-    width: 246px;
-    margin-top: 114px;
-    padding: 0 0 0 15px;
-    background-color: var(--outline);
-}
+    .heb_encart {
+        background-color: var(--outline);
+        padding-left: 10px;
+    }
 
-.heb_encart h3 {
-    position: relative;
-    top: -7px;
-}
+    .heb_encart h3 {
+        margin-top: 4px;
+    }
 
-.heb_encart h3 + p {
-    position: relative;
-    top: -10px;
-}
-
-.heb_vign .stars {
-    margin-top: -2px;
-}
-
-/* 
-Images des vignettes Résultats 
-===========================================================
-*/
-
-.HEB1 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.HEB2 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.HEB3 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.HEB4 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.HEB5 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.HEB6 {
-    z-index: 1;
-    height: 100%;
-    height: 120px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
+    .stars {
+        margin-top: 20px;
+    }
+    
+    .heb h2 {
+        margin-left: 40px;
+    }
 /* 
 partie populaires 
 ===========================================================
 */
 .pop {
-    width: 343px; 
-    height: 592px;
+    width: 31%; 
     border-radius: 20px;
     background-color: var(--back);
-    padding: 0 40px 34px 37px;
 }
 
 .pop_head {
     display: flex;
-    flex-direction: row;
     justify-content: space-between ;
     align-items: baseline;
-    margin-top: 15px;
+    margin: 12px 40px 10px 40px;
 }
 
 .pop_vigns {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 498px;
-    margin-top: 7px;
 }
 
 .pop_vign {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: 333px;
-    height: 134px;
+    margin: 0 40px 0 40px;
     border-radius: 20px;
     border: 5px solid var(--outline);
     background-color: var(--outline);
@@ -421,55 +332,19 @@ partie populaires
     overflow: hidden;
 }
 
+.pop_vign img {
+    display: inline;
+    flex: .4;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
 .pop_encart {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 107%;
-    margin-top: -5px;
-    padding: 0 20px 0 20px;
-    background-color: var(--outline);
-    margin-left: 120px;
+    display: inline;
+    flex: 1;
+    border: 1px solid black;
 }
-
-/* 
-Images des vignettes Populaires 
-===========================================================
-*/
-
-.POP1 {
-    z-index: 1;
-    float:left;
-    height: 100%;
-    width: 122px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.POP2 {
-    z-index: 1;
-    float:left;
-    height: 100%;
-    width: 122px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.POP3 {
-    z-index: 1;
-    float:left;
-    height: 100%;
-    width: 122px;
-    background-image: url("../Images/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 
 /* 
 partie avtivités 
@@ -477,8 +352,7 @@ partie avtivités
 */
 
 .activites {
-    height: 493px;
-    width: 1340px;
+
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -496,20 +370,26 @@ partie avtivités
 }
 
 .act_vign {
-    width: 302px;
-    height: 445px;
+    width: 23%;
     border-radius: 20px;
     box-shadow: 0px 5px 15px 5px var(--back);
     overflow: hidden;
+}
+
+.act_vign img {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
 }
 
 .act_encart {
     float: left;
     position: relative;
     z-index: 1;
-    height: 56px;
+    height: 10%;
     width: 402px;
-    margin-top: -56px;
+    margin-top: -53px;
     vertical-align: middle;
     background-color: var(--outline);
 }
@@ -518,46 +398,7 @@ partie avtivités
     margin-left:20px ;
 }
 
-/* 
-Images des vignettes Activités 
-===========================================================
-*/
 
-.ACT1 {
-    z-index: 2;
-    height: 100%;
-    background-image: url("../Images/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.ACT2 {
-    z-index: 2;
-    height: 100%;
-    background-image: url("../Images/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.ACT3 {
-    z-index: 2;
-    height: 100%;
-    background-image: url("../Images/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.ACT4 {
-    z-index: 2;
-    height: 100%;
-    background-image: url("../Images/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 /* 
@@ -566,7 +407,6 @@ partie footer
 */
 
 footer {
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px 70px 0 70px;
@@ -1133,9 +973,6 @@ Media Queries Mobile
         top: -7px;
     }
     
-    .heb_vign .stars {
-        margin-top: 0;
-    }
     
     .hide {
         display: none;
