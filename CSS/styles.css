@@ -1,3 +1,24 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 /* 
 presets 
 ===========================================================
@@ -249,55 +270,81 @@ partie résultats
 .heb {
     width: 65%;
     border-radius: 20px;
+    padding: 40px 40px 45px 40px;
+    box-sizing: border-box;
     background-color: var(--back);
+
 }
 
 .heb h1 {
-    margin: 42px 0 0 40px;
+    margin-bottom: 25px;
 }
 
 .heb_vigns {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
-    margin: 23px 40px 40px 40px;
+    margin-bottom: 40px;
 }
 
-    .heb_vign {
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        border-radius: 20px;
-        border: 5px solid var(--outline);
-        background-color: var(--outline);
-        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
-        overflow: hidden;
-        margin-bottom: 20px;
-    }
+        .heb_vign {
+            width: 30%;
+            height: 12.5rem;
+            border-radius: 20px;
+            border: 5px solid var(--outline);
+            background-color: var(--outline);
+            box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
 
-    .heb_vign img {
-        width: 100%;
-        height: 50%;
-        object-fit: cover;
-    }
+            .heb_img, .pop_img, .act_img{ 
+                background-size: cover;
+                background-position: center;
+            }
 
-    .heb_encart {
-        background-color: var(--outline);
-        padding-left: 10px;
-    }
+            .heb_img {
+                height: 8rem;
+            }
+          
 
-    .heb_encart h3 {
-        margin-top: 4px;
-    }
+            .heb1 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+            }
 
-    .stars {
-        margin-top: 20px;
-    }
-    
-    .heb h2 {
-        margin-left: 40px;
-    }
+            .heb2 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+            }
+            
+            .heb3 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+            }
+            
+            .heb4 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+            }
+            
+            .heb5 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+            }
+            
+            .heb6 {
+                background-image: url(../images/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+            }
+
+            .heb_encart {
+                background-color: var(--outline);
+                padding-left: 10px;
+            }
+
+            .heb_encart h3 {
+                margin: 8px 0 12px 0;
+            }
+
+            .heb_encart p {
+                margin: 10px 0 20px 0;
+            }
+
 /* 
 partie populaires 
 ===========================================================
@@ -306,13 +353,18 @@ partie populaires
     width: 31%; 
     border-radius: 20px;
     background-color: var(--back);
+    padding: 40px 40px 45px 40px;
+    box-sizing: border-box;
 }
 
 .pop_head {
     display: flex;
     justify-content: space-between ;
-    align-items: baseline;
-    margin: 12px 40px 10px 40px;
+    align-items: baseline; 
+}
+
+.pop_head h1 {
+    margin-bottom: 25px;
 }
 
 .pop_vigns {
@@ -321,33 +373,40 @@ partie populaires
     justify-content: space-between;
 }
 
-.pop_vign {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 40px 0 40px;
-    border-radius: 20px;
-    border: 5px solid var(--outline);
-    background-color: var(--outline);
-    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
-    overflow: hidden;
-}
+    .pop_vign {
+        height: 10rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        border: 5px solid var(--outline);
+        background-color: var(--outline);
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, .1);
+        overflow: hidden;
+    }
+        .pop_img {
+            width: 30px;
+            background-color: #0065FC;
+        }
 
-.pop_vign img {
-    display: inline;
-    flex: .4;
-    width: 40%;
-    height: 40%;
-    object-fit: cover;
-}
+        .pop1 {
+            background-image: url(../Images/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+        }
+        .pop1 {
+            background-image: url(../Images/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+        }
+        .pop1 {
+            background-image: url(../Images/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+        }
 
-.pop_encart {
-    display: inline;
-    flex: 1;
-    border: 1px solid black;
-}
+        .pop_encart {
+            display: inline;
+            flex: 1;
+            border: 1px solid black;
+        }
 
 /* 
-partie avtivités 
+partie activités 
 ===========================================================
 */
 
