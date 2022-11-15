@@ -1,11 +1,5 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
 
 /* presets  */
 
@@ -121,7 +115,7 @@ a {
     align-items: center;
 }
 .search_area {
-    width: 224px;
+    width: 244px;
     height: 50px;
     border: 1px solid var(--back);
     padding-left: 15px;
@@ -141,7 +135,7 @@ input::placeholder {
     border-radius: 0px 15px 15px 0px;
     background-color: var(--prim);
     color: white;
-    padding-left: 15px;
+    padding-left: 7px;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
@@ -225,12 +219,12 @@ input::placeholder {
         margin-bottom: 40px;
     }
     .heb_vigns article {
-        width: 32%;
+        width: 31%;
         margin-bottom: 30px;
     }
             .heb_vign {
                 display: block;
-                height: 12.5rem;
+                height: 100%;
                 border-radius: 20px;
                 border: 5px solid var(--outline);
                 background-color: var(--outline);
@@ -283,6 +277,9 @@ input::placeholder {
     }
     .pop_head h1 {
         margin-bottom: 25px;
+    }
+    .pop_head i {
+        cursor: pointer;
     }
     .pop_vigns {
         display: flex;
@@ -394,7 +391,7 @@ Media Queries Tablette
 ======================================================================================================================
 */
 
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
     /* partie header    */
 
     nav {
@@ -449,13 +446,14 @@ Media Queries Tablette
 ======================================================================================================================
 */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
 
     body {
         padding: 0 0 0 0;
     }
 
     /*     partie header   */
+
     .top {
         display: flex;
         flex-direction: column;
@@ -464,49 +462,40 @@ Media Queries Tablette
         width: 100%;
         margin-bottom: 31px;
     }
-
     .log {
         margin-top: 21px ;
     }
-
     .log img {
         width: 61px;
         height: 20px;
     }
-
     nav {
         text-align:center;
         width: 100%;
     }
-
     nav a {
         width: 100%;
         height: 60px;
         border-bottom: 3px solid var(--back);
         border-top: none;
     }
-
     nav a:hover {
         position: relative;
         border-top: none;
         border-bottom: 3px solid var(--prim);
     }
-
     .up {
         width: 88%;
         margin: auto;
     }
-
     .intro {
         margin-top:36px;
         width: 100%;
     }
-
     .intro h1 {
         margin-top: 30px;
         margin-bottom: 25px;
     }
-
     .intro p {
         margin-bottom: 40px;
         line-height: 1rem;
@@ -520,14 +509,12 @@ Media Queries Tablette
         border: 1px solid var(--back);
         padding-left: 15px;
     }
-    
     input::placeholder {
         font-family: 'Raleway';
         font-size: 18px;
         font-weight: 700;
         color: black;
     }
-    
     .search_btn {
         display: flex;
         justify-content: center;
@@ -537,52 +524,48 @@ Media Queries Tablette
         padding: 0 0 0 0;
         left: -1px;
     }
-
     .fa-magnifying-glass {
         position: relative;
         display: block;
         visibility: visible;
     }
-    
     .filtres {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: no-wrap;
         width: auto;
         margin: 0 0 43px 0px;
     }
-    
-    .master_filtre {
-        margin-bottom: 15px; 
+        .master_filtre {
+        margin-bottom: 15px;
+        flex: 1; 
     }
-    
+    .selec_filtre {
+        justify-content: space-between;
+    }
     .filtre {
         display: flex;
         align-items: center;
         font-size: 11px;
         font-weight: 700;
-        width: 160px;
+        width: 45%;
         height: 46px;
         padding: 0 0 0 0;
-        margin-bottom: 15px;
+        margin: 0 0 15px 0;
         border: 2px solid var(--dark-back);
         border-radius: 25px;
     }
-    
     .filtre:hover {
         background-color: var(--prim-soft);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
-    
     .fa-money-bill-wave , .fa-person, .fa-heart, .fa-dog{
         font-size: 1.6em;
     }
-
     .filtre i {
         margin-left: 15px;
         margin-right: 10px;
     }
-    
     .info {
         margin: 0 0 0 0;
     }
@@ -598,7 +581,6 @@ Media Queries Tablette
         margin-right: 10px;
         margin-top: -4px;
     }
-
     .info p {
         margin: 0;
         line-height: normal;
