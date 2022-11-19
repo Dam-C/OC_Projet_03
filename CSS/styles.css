@@ -15,7 +15,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 1400px;
-    padding: 0 20px 0 20px;
     margin-bottom: 0px;
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
@@ -154,19 +153,20 @@ input::placeholder {
 }
 .master_filtre {
     padding-top: 15px;
-    margin-right: 30px; 
+    margin-right: 2%; 
 }
 .selec_filtre {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
 }
 .filtre {
-    display: block;
-    padding: 15px 20px 15px 15px;
-    padding-right: 20px;
-    border: 3px solid var(--dark-back);
+    display: inline-block;
+    padding: 14px 20px 14px 15px;
+    border: 2px solid var(--dark-back);
     border-radius: 30px;
-    margin: 0 15px 15px 0;
+    margin-right: 2%;
+    margin-bottom: 15px;
 }
 .filtre:hover {
     background-color: var(--prim-soft);
@@ -392,6 +392,7 @@ Media Queries Tablette
 */
 
 @media all and (max-width: 991px) {
+
     /* partie header    */
 
     nav {
@@ -400,7 +401,12 @@ Media Queries Tablette
         justify-content: space-between;
         text-align:center;
     }
-
+    .master_filtre {
+        margin-right: 1%; 
+    }
+    .filtre {
+        margin-right: 1%;
+    }
     /* partie résultats   */
 
     .resultats {
@@ -504,7 +510,7 @@ Media Queries Tablette
     /*     bouton de recherche   */
  
     .search_area {
-        width: 235px;
+        width: auto;
         height: 50px;
         border: 1px solid var(--back);
         padding-left: 15px;
@@ -532,7 +538,7 @@ Media Queries Tablette
     .filtres {
         display: flex;
         flex-direction: column;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         width: auto;
         margin: 0 0 43px 0px;
     }
@@ -617,6 +623,7 @@ Media Queries Tablette
     }
     .heb_vign {
         width: 100%;
+        box-sizing: border-box;
     }
     .hide {
         display: none;
