@@ -21,4 +21,4 @@ HTML et CSS
 * Site de réservation de logement et d'activités.
 * Orientation desktop first.
 * La page est faite pour s'adapter sur tablette et mobile.
-* Les liens présents ne sont pas clicables.
+* Les liens présents sont clicables mais non fonctionnels.
